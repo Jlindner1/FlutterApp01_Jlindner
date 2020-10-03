@@ -28,7 +28,6 @@ class MyApp extends StatelessWidget {
                   ),
                   height: 100.0,
                   width: 100.0,
-                  //margin: EdgeInsets.all(10.0),
                   child: Align(
                     alignment: Alignment.center,
                     child: Text("Container 1"),
@@ -43,7 +42,6 @@ class MyApp extends StatelessWidget {
                       ),
                       height: 100.0,
                       width: 100.0,
-                      //margin: EdgeInsets.all(10.0),
                       child: Align(
                         alignment: Alignment.center,
                         child: Text("Container 2"),
@@ -94,10 +92,8 @@ class MyApp extends StatelessWidget {
                           radius: 47,
                           child: Align(
                             alignment: Alignment.center,
-                            child: Text(
-                              "Container 5",
-                              style: TextStyle(color: Colors.white),
-                            ),
+                            child: Text("Container 5",
+                                style: TextStyle(color: Colors.white)),
                           ),
                         ),
                       ),
@@ -113,9 +109,7 @@ class MyApp extends StatelessWidget {
                       alignment: Alignment.topLeft,
                       child: Text(
                         "Con 6",
-                        style: TextStyle(
-                          fontSize: 30,
-                        ),
+                        style: TextStyle(fontSize: 30),
                       ),
                     ),
                   ),
