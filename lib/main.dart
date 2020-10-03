@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
                 Container(
                   decoration: BoxDecoration(
                     border: Border.all(width: 3, color: Colors.black),
-                    color: Colors.orange,
+                    color: Colors.orangeAccent,
                   ),
                   height: 100.0,
                   width: 100.0,
