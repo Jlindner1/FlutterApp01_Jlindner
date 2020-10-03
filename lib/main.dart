@@ -82,6 +82,7 @@ class MyApp extends StatelessWidget {
             Column(
               children: <Widget>[
                 Expanded(
+                  flex: 2,
                   child: Container(
                     width: 100,
                     height: 100,
